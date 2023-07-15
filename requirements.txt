@@ -1,3 +1,5 @@
 Flask
 reactpy
 gunicorn
+Flask-Cors
+flask-sock
