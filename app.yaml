@@ -1,2 +1,3 @@
 runtime: python39
+env: flex
 entrypoint: gunicorn -w 1 main:app
