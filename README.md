@@ -1,5 +1,4 @@
-# rflask
-Deploy reactpy app with flask backend in GCP.
+# Deploy reactpy app with flask backend in GCP.
 
 It does not work.
 
