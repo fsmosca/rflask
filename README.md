@@ -82,6 +82,25 @@ The app.yaml is using flexible environment, you can open the app.yaml file. Flex
 gcloud app deploy --appyaml=app.yaml
 ```
 
+This is our `app.yaml`.
+
+```python
+runtime: python
+
+# F1 = 2 workers (default), F2 = 4 workers
+instance_class: F1
+
+env: flex
+
+# -w 2 sets gunicorn number of workers
+# The number of workers you specify should match the instance class of your App Engine app:
+entrypoint: gunicorn -b :$PORT -w 2 main:app
+
+runtime_config:
+    operating_system: "ubuntu22"
+    runtime_version: "3.11"
+```
+
 ## Note
 
 * The `app.yaml` is using flexible environment. Attempts to use standard environment did not work so far.
