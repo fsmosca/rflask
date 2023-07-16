@@ -6,7 +6,7 @@ Command to deploy.
 gcloud app deploy app.yaml
 ```
 
-### Note
+## Note
 
 The `app.yaml` is using flexible environment. Attempts to use standard environment did not work so far.
 
