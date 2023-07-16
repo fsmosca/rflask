@@ -76,7 +76,7 @@ gcloud app create
 
 ### 11. Deploy the app
 
-The app.yaml is using flexible environment, you can open the app.yaml file. Flexible uses a container. There are comments in app.yaml file.
+The app.yaml is using flexible environment, you can open the app.yaml file. Flexible uses a container. There are comments in app.yaml file. Read the items in the reference section too.
 
 ```
 gcloud app deploy --appyaml=app.yaml
