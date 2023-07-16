@@ -3,13 +3,9 @@
 Command to deploy.
 
 ```
-gcloud app deploy
+gcloud app deploy app.yaml
 ```
 
-It does not work.
+### Note
 
-Page console error message
-
-```
-websocket connection failed
-```
+The `app.yaml` is using flexible environment. Attempts to use standard enviroment does not work.
