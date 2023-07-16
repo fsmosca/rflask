@@ -1,4 +1,4 @@
-# Deploy reactpy app with flask backend in GCP.
+# Deploy reactpy app with flask backend to GCP.
 
 ## Guide
 
@@ -46,7 +46,7 @@ source venv/bin/activate
 
 ### 8. Install the modules in the requirements.txt
 
-To test if our requirements is right.
+To test if the contents of our requirements.txt file is right.
 
 ```
 pip install -r requirements.txt
