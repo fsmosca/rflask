@@ -20,6 +20,8 @@ Press that button at top right.
 
 ### 4. Clone this repo
 
+You may use this repo just for testing. A quick way to copy files and folders into the google cloud.
+
 ```
 git clone https://github.com/fsmosca/rflask.git
 ```
