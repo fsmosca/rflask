@@ -32,6 +32,8 @@ cd rflask
 
 ### 6. Create virtual environment.
 
+This is only local with respect to the machine in GCP that we are using. This is different when we actually deploy our app.
+
 ```
 python -m venv venv
 ```
@@ -44,13 +46,15 @@ source venv/bin/activate
 
 ### 8. Install the modules in the requirements.txt
 
+To test if our requirements is right.
+
 ```
 pip install -r requirements.txt
 ```
 
 ### 9. Test it
 
-We are not deploying for production yet. Just testing the virtual environment we just created in GCP.
+We are not deploying for production yet. Just testing the virtual environment.
 
 ```
 gunicorn main:app
@@ -60,15 +64,19 @@ You should see:
 
 "Hello, world!"
 
-Send control+c in shell to exit.
+Send control+c in the shell to exit.
 
 ### 10. Create app
+
+Now let us create an app for production. This is the real deal that we are up to.
 
 ```
 gcloud app create
 ```
 
 ### 11. Deploy the app
+
+The app.yaml is using flexible environment, you can open the app.yaml file. Flexible uses a container. There are comments in app.yaml file.
 
 ```
 gcloud app deploy --appyaml=app.yaml
