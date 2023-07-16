@@ -101,6 +101,10 @@ runtime_config:
     runtime_version: "3.11"
 ```
 
+### 12. Shutdown
+
+Be sure to shutdown your project if you are just testing it.
+
 ## Note
 
 * The `app.yaml` is using flexible environment. Attempts to use standard environment did not work so far.
