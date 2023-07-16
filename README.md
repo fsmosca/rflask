@@ -12,5 +12,6 @@ The `app.yaml` is using flexible environment. Attempts to use standard environme
 
 ## Reference
 
+* https://reactpy.dev/docs/guides/getting-started/running-reactpy.html#running-reactpy-in-production
 * https://cloud.google.com/appengine/docs/flexible/python/runtime
 * https://cloud.google.com/appengine/docs/standard/reference/app-yaml?tab=python
