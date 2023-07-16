@@ -8,4 +8,4 @@ gcloud app deploy app.yaml
 
 ### Note
 
-The `app.yaml` is using flexible environment. Attempts to use standard enviroment does not work.
+The `app.yaml` is using flexible environment. Attempts to use standard enviroment did not work so far.
