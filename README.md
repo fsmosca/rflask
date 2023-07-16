@@ -62,7 +62,7 @@ We are not deploying for production yet. Just testing the virtual environment.
 gunicorn main:app
 ```
 
-You should see:
+You should see the following from the given url.
 
 "Hello, world!"
 
