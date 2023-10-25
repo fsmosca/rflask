@@ -107,6 +107,8 @@ runtime_config:
 
 Be sure to shutdown your project if you are just testing it.
 
+Even better is to delete the project so that it is disconnected from the billing.
+
 ## Note
 
 * The `app.yaml` is using flexible environment. Attempts to use standard environment did not work so far.
